@@ -51,6 +51,7 @@ class MainActivity : AppCompatActivity() {
                 text1.text = newnumber.substring(0, newnumber.length -2)
             }
         }
+        operand1 = 0.0
     }
     fun clearText(view: View){
         text1.text = "0"
